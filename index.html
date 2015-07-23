@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<style>
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+	td {
+		border: 0px solid#000;
+	}
+	a {
+		font-family: sans-serif;
+		font-size: 12px;
+		color: #000;
+		text-decoration: none;
+	}
+	</style>
+</head>
+<body>
+	<div class="headLineOptions">
+		<div class="headLineOptionsTxt1"><a href="http://www.gazeta.pl" target="_blank">Strona główna Gazeta.pl</a></div>
+		<div class="headLineOptionsTxt2"><a href="http://www.tokfm.pl/Tokfm/0,0.html" target="_blank">Tokfm.pl</a></div>
+		<div class="headLineOptionsTxt3"><a href="http://www.gazeta.pl/poczta" target="_blank">Poczta</a></div>
+		<div class="headLineOptionsTxt4"><a href="http://www.gazeta.pl/forum" target="_blank">Forum</a></div>
+		<div class="headLineOptionsTxt5"><a href="http://www.blox.pl" target="_blank">Blogi</a></div>
+		<div class="headLineOptionsTxt6"><a href="http://www.antyradio.pl" target="_blank">Radio</a></div>
+		<div class="headLineOptionsTxt7"><a href="http://www.wyborcza.pl" target="_blank">Gazeta Wyborcza</a></div>
+		<div class="headLineOptionsTxt8 menu">
+			<ul class="menu"> 
+				<li>
+					<a href=""> &nbsp;&nbsp;więcej<span><img class="pointer" src="Pointer.jpg"></span></a>
+					<ul>
+						<li> &nbsp;&nbsp;Rozliczenie podatku</li>	
+						<li> &nbsp;&nbsp;Pogoda</li>	
+						<li> &nbsp;&nbsp;Gry</li>	
+						<li> &nbsp;&nbsp;Programy</li>	
+					</ul>
+				</li>
+			</ul>
+		</div>	
+		<div class="login">
+			<div class="loginLeft"><img src="login.jpg" class="loginLeftJpg"></div>
+		<a href="http://auth.gazeta.pl/googleAuth/login.do?siteId=3&SAMLRequest=fVLJTsMwEL0j8Q%2BR71mlSshqUoUiRCSWiAYO3Bxnkro4dvA4LfD1uCkVcKDX5%2Be3zMx88d5LbwsGhVYpiYOIeKC4boTqUvJUXfsXZJGdn82R9XKg%2BWjX6hHeRkDruZ8K6fSQktEoqhkKpIr1gNRyusrvbmkSRHQw2mquJfGKq5Rw0feq22xqpoZWQC26jRTDayNr3jZirZq67lRbO%2FbzMVayj1UgjlAotExZB0XxzI9mfnJRJTGNZjSJX4hXfjtdCnVocCpWfSAhvamq0i8fVtUksBUNmHvHTkmndSch4Lrf25cMUWwd3DKJQLwcEYx1AZda4diDWYHZCg5Pj7cpWVs7IA3D3W4X%2FMiELOzYJ1gWDDJkHEk2DZZO3cyviZ5Ozo7OJPvRnoe%2FpLLvhe17FFelloJ%2FeLmUerc0wKwrYc3oOlxr0zP7v1scxBMiGr%2BdqHRUOAAXbnMN8cLs4Pr3Mty9fAE%3D&RelayState=https%3A%2F%2Fwww.google.com%2Fa%2Fgazeta.pl%2FServiceLogin%3Fservice%3Dmail%26passive%3Dtrue%26rm%3Dfalse%26continue%3Dhttps%253A%252F%252Fmail.google.com%252Fa%252Fgazeta.pl%252F%26ss%3D1%26ltmpl%3Ddefault%26ltmplcache%3D2%26emr%3D1%26osid%3D1" target="blank">
+			<div class="loginLeftTxt">Zaloguj się</div>
+		</a>	
+		</div>
+	</div>
+	<hr class="upperLine">
+	<div class="mainLogo"><img src="gazetaLogo.jpg"></div>
+	<div class="mainContentContainer">
+		<p style="font-size: 20px; color: #525252"><b>Rejestracja konta Gazeta.pl - krok 1/4</b></p>
+		<div class="line"></div>
+		<form action="createAccount.html" method="post">
+			<table class="mainData">
+				<tr>
+					<td class="firstColumn">Login:</td>
+					<td class="secondColumn">
+						<input class="textArea" type="text">
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td class="smallTxt">litery (bez polskich znaków) i cyfry - min. 2 znaki</td>
+				</tr>
+				<tr>
+					<td class="firstColumn">Hasło:</td>
+					<td>
+						<input class="textArea" type="password"> 
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td class="smallTxt">min. 8 z, max. 25 znaków</td>
+				</tr>
+				<tr>
+					<td class="firstColumn">Powtórz hasło:</td>
+					<td>
+						<input class="textArea" type="text">
+					</td>
+				<tr>
+					<td></td>
+					<td class="smallTxt"></td>
+				</tr>	
+				</tr>
+				<tr>
+					<td class="firstColumn">Konto e-mail:</td>
+					<td style="padding-left: 15px">
+						<input type="radio">Chcę założyć konto pocztowe login@gazeta.pl
+					</td>
+				</tr>
+				<tr>
+					<td class="smallTxt"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td class="smallTxt"></td>
+					<td></td>
+				</tr>
+
+				<tr>
+					<td class="firstColumn">Potwierdź, że nie jesteś robotem:</td>
+					<td>
+						<div class="reCaptcha">
+							<div class="reCaptchaLeft">	
+								<input type="checkbox"> Nie jestem robotem
+							</div>
+							<div class="reCaptchaRight">
+								<img class="reCaptchaRightLogo" src="logo2.gif">
+							</div>	
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="smallTxt"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td class="firstColumn">Regulamin:</td>
+					<td rowspan="2">
+						<div class="regulations" type="text">
+							<h2>Regulamin użytkownika Serwisów Internetowych Agory</h2>
+							      <p>Obowiązuje od 24 kwietnia 2014 roku.</p>						      
+							      <p>Część A. Postanowienia ogólne</p>						      
+								<p>Ilekroć w niniejszym Regulaminie stosuje się poniższe określenia i definicje, należy je rozumieć jak następuje:</p>
+							      <p><b>Regulamin</b></p>
+							      <p>"Regulamin użytkownika Serwisów Internetowych Agory", stanowiący regulamin w rozumieniu ustawy z dnia 18 lipca 2002 roku o świadczeniu usług drogą elektroniczną (Dz. U. nr 144 poz. 1204), określający zasady świadczenia usług drogą elektroniczną przez Agorę na rzecz Użytkowników prowadzonych przez Agorę Serwisów Internetowych. Regulamin nie dotyczy odpłatnych usług świadczonych przez Agorę, które podlegają odrębnym uregulowaniom udostępnianym Użytkownikom przed oraz w trakcie świadczenia tych usług, przy czym dla korzystania z odpłatnych usług niezbędne może być posiadanie przez Użytkownika Konta w rozumieniu niniejszego Regulaminu, w którym to przypadku postanowienia Regulaminu będą miały zastosowanie.</p>					
+						</div>
+					</td>
+				</tr>
+				<tr><td class="firstColumn" style="height: 180px"></td></tr>
+				<tr>
+					<td style="height: 15px"></td>
+					<td style="height: 15px"></td>				
+				</tr>
+				<tr>
+					<td></td>
+					<td class="conditionsTxt" style="vertical-align: middle">
+						<input type="checkbox" name="conditions[]"> Wyrażam zgodę na przetwarzanie moich danych osobowych przez Agorę S.A. z siedzibą w Warszawie, ul. Czerska 8/10,00-732 Warszawa &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -administratora danych osobowych, w celach marketingowych.
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Podanie danych osobowych jest dobrowolne. Osobie, której dane dotyczą przysłuhuje prawo wglądu danych osobowych oraz ich &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;poprawienia.</p>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td class="conditionsTxt">
+						<input type="checkbox" name="conditions[]"> Wyrażam zgodę na przesyłanie na mój adres e-mail informacji handlowych o produktach, usługach i przedsięwzięciach Agory S.A. z &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;siedzibą w Warszawie, ul.Czerska 8/10, 00-732 Warszawa oraz kontaktowanie się ze mną przez Agorę S.A. pocztą elektroniczną w celach &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;marketingu bezpośredniego.
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td class="conditionsTxt">
+						<input type="checkbox" name="conditions[]"> Wyrażam zgodę na otrzymywanie od Agory S.A. z siedzibą w Warszawie, ul. Czerska 8/10, 00-732 Warszawa na mój adres e-mail &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;informacji handlowych dotyczących kontrahentów Agory oraz na kontaktowanie się ze mną przez Agorę S.A. pocztą elektroniczną w &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;celach marketingu bezpośredniego.
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td class="conditionsTxt">
+						<input type="checkbox" name="condotions[]"> Jestem zainteresowany otrzymywaniem informacji dotyczących napojów alkoholowych, w tym napojów o zawartości alkoholu powyżej 18% i &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;w związku z tym proszę o przesyłanie takich informacji przez Agorę S.A. z siedzibą w Warszawie, ul. Czerska 8/10, 00-732 Warszawa, na &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;moje konto poczty elektronicznej. Oświadczam przy tym, że ukończyłem 18 lat.
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td class="conditionsTxt">
+						<input type="checkbox" name="conditions[]"> Potwierdzam powyższe oświadczenie i akceptuję regulamin.
+					</td>
+				</tr>
+				<tr>
+					<td class="firstColumn"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<input type="submit" value="Dalej" class="submitButton">	
+					</td>
+				</tr>
+			</table>
+		</form>
+		<div class="lineDown"></div>
+		<div class="lowerHyperlinks">
+			<div class="lowerHyperlinksLeftTxt">Na skróty:
+				<span class="lowerHyperlinksRightTxt" style="margin-left: 10px"> Gazeta.pl</span>
+				<span class="lowerHyperlinksRightTxt"><a href="http://gazeta.pl/wiadomosci" target="_blank" style="color: #6CB5E6"> Wiadomości</a></span>
+				<span class="lowerHyperlinksRightTxt"><a href="http://gazeta.pl/wiadomosci" target="_blank" style="color: #6CB5E6"> Sport.pl</a></span>
+				<span class="lowerHyperlinksRightTxt"><a href="http://gazeta.pl/wiadomosci" target="_blank" style="color: #6CB5E6"> Biznes</a></span>
+				<span class="lowerHyperlinksRightTxt"><a href="http://gazeta.pl/wiadomosci" target="_blank" style="color: #6CB5E6"> Gazeta Wyborcza</a></span>
+				<span class="lowerHyperlinksRightTxt"><a href="http://gazeta.pl/wiadomosci" target="_blank" style="color: #6CB5E6"> Praca</a></span>
+				<span class="lowerHyperlinksRightTxt"> Program TV</span>
+			</div>
+			<div class="lowerHyperlinksLeftTxt">Polecamy:			
+				<span class="lowerHyperlinksRightTxt" style="margin-left: 10px"> Newslettery</span>
+				<span class="lowerHyperlinksRightTxt"> Blogi</span>
+				<span class="lowerHyperlinksRightTxt"> Forum</span>
+				<span class="lowerHyperlinksRightTxt"> Poczta Gazeta.pl</span>
+				<span class="lowerHyperlinksRightTxt"> Społeczność Gazeta.pl</span>
+			</div>
+		</div>
+		<div class="lowerHyperlinksButtons2">
+			<a href="http://newslettery.gazeta.pl/newslettery/0,0.html?fromnlt=stopka&refnlt=http://konto.gazeta.pl/konto/" target="_blank">
+				<img src="newsletter.jpg" class="lowerHyperlinksButtonsNewsletter">
+				<div class="lowerHyperlinksButtonsEmailSign">Newsletter</div>
+			</a>	
+		</div>
+		<div class="lowerHyperlinksButtons">
+			<a href="http://auth.gazeta.pl/googleAuth/login.do?siteId=3&SAMLRequest=fVLJTsMwEL0j8Q%2BR71mlSshqUoUiRCSWiAYO3Bxnkro4dvA4LfD1uCkVcKDX5%2Be3zMx88d5LbwsGhVYpiYOIeKC4boTqUvJUXfsXZJGdn82R9XKg%2BWjX6hHeRkDruZ8K6fSQktEoqhkKpIr1gNRyusrvbmkSRHQw2mquJfGKq5Rw0feq22xqpoZWQC26jRTDayNr3jZirZq67lRbO%2FbzMVayj1UgjlAotExZB0XxzI9mfnJRJTGNZjSJX4hXfjtdCnVocCpWfSAhvamq0i8fVtUksBUNmHvHTkmndSch4Lrf25cMUWwd3DKJQLwcEYx1AZda4diDWYHZCg5Pj7cpWVs7IA3D3W4X%2FMiELOzYJ1gWDDJkHEk2DZZO3cyviZ5Ozo7OJPvRnoe%2FpLLvhe17FFelloJ%2FeLmUerc0wKwrYc3oOlxr0zP7v1scxBMiGr%2BdqHRUOAAXbnMN8cLs4Pr3Mty9fAE%3D&RelayState=https%3A%2F%2Fwww.google.com%2Fa%2Fgazeta.pl%2FServiceLogin%3Fservice%3Dmail%26passive%3Dtrue%26rm%3Dfalse%26continue%3Dhttps%253A%252F%252Fmail.google.com%252Fa%252Fgazeta.pl%252F%26ss%3D1%26ltmpl%3Ddefault%26ltmplcache%3D2%26emr%3D1%26osid%3D1" target="_blank">
+				<img src="email.jpg" class="lowerHyperlinksButtonsEmail">
+				<div class="lowerHyperlinksButtonsEmailSign">Poczta</div>
+			</a>	
+		</div>
+		<div class="lineBottom"></div>
+		<div class="bottomTxtLeftContainer">
+			<span class="bottomTxtLeft">Copyright &copy; Agora SA</span>
+			<span class="bottomTxtRight"> O nas</span>
+			<span class="bottomTxtRight"> Staże u nas</span>
+			<span class="bottomTxtRight"> Reklama</span>
+			<span class="bottomTxtRight"> Prywatność</span>
+			<span class="bottomTxtRight"> Wszystkie artykuły</span>
+			<span class="bottomTxtRight"> Licencje/Kontent</span>
+		</div>
+		<div class="bottomTxtRightContainer">
+			<span class="lowerHyperlinksRightTxt"> Poleć stronę</span> 
+			<span class="lowerHyperlinksRightTxt2"> Zgłoś błąd</span> 
+		</div>	
+	</div>
+	</body>
+</html>
